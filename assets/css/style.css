@@ -5,20 +5,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --primary: #ed2b33ff;
-  --secondary:red;
+  --secondary: red;
 }
+
 a {
   text-decoration: none;
-  
+
 }
-h1,h2.h3{
+
+h1,
+h2.h3 {
   font-family: 'Carter One', cursive;
 }
+
 ul {
   list-style: none;
 }
+
 .active {
   color: var(--primary);
   text-decoration: underline;
@@ -35,33 +41,40 @@ ul {
   justify-content: space-between;
   padding: 20px;
 }
+
 .nav img {
   width: 80px;
 }
+
 .nav-links {
   display: flex;
   align-items: center;
 }
+
 .nav-links li {
   margin: 0 30px;
 }
-nav ul li a{
+
+nav ul li a {
   color: #ea0542;
   font-family: 'Carter One', cursive;
 }
-}
-nav ul li a:hover{
+
+
+nav ul li a:hover {
   color: #fd4766;
 }
-nav ul li a:after{
- 
+
+nav ul li a:after {
+
   position: absolute;
   height: 3px;
-  background:rgb(155, 38, 79);
+  background: rgb(155, 38, 79);
   transition: .3s;
   bottom: 0;
 }
-nav ul li a:hover:after{
+
+nav ul li a:hover:after {
   width: 100%;
 }
 
@@ -78,18 +91,21 @@ header {
   display: flex;
   justify-content: flex-end;
   border: 1px solid black;
-  align-items:flex-start;
+  align-items: flex-start;
 }
+
 .header-content {
   margin: 300px 50px 0px 0px;
-  color:  #d12e2e;
+  color: #d12e2e;
   text-align: center;
 }
+
 .header-content h2 {
   font-size: 4vmin;
   color: #d12e2e;
   font-family: 'Carter One', cursive;
 }
+
 .line {
   width: 150px;
   height: 5px;
@@ -97,9 +113,11 @@ header {
   margin: 10px auto;
   border-radius: 5px;
 }
-nav ul li:nth-child(6) a{
-    color: white;
+
+nav ul li:nth-child(6) a {
+  color: white;
 }
+
 .signup a {
   color: white;
   font-weight: 1000;
@@ -108,6 +126,7 @@ nav ul li:nth-child(6) a{
   padding: 10px 20px;
   border-radius: 20px;
 }
+
 .btn {
   padding: 8px 20px;
   font-weight: 1000;
@@ -116,11 +135,13 @@ nav ul li:nth-child(6) a{
   border-radius: 40px;
   color: white;
 }
-.btn:hover{
+
+.btn:hover {
   background: white;
   border-color: white;
   color: black;
 }
+
 .header-content h1 {
   font-size: 7vmin;
   margin-top: 50px;
@@ -137,40 +158,49 @@ section {
   width: 80%;
   margin: 80px auto;
 }
+
 .title {
   text-align: center;
   font-size: 4vmin;
   color: rgb(54, 54, 107);
 }
+
 .row {
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: space-between;
 }
+
 .row .col img {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .col {
   text-align: center;
 }
+
 .main-img1 {
   margin-left: 160px;
 }
+
 .maincontents .row {
   margin-top: 50px;
 }
+
 h4 {
   font-size: 3vmin;
   color: #484872;
   margin: 20px auto;
 }
+
 p {
   color: #7c7c7c;
   padding: 0px 40px;
 }
+
 .maincontents .ctn {
   margin-top: 30px;
 }
@@ -185,6 +215,7 @@ p {
   display: flex;
   align-items: center;
 }
+
 .explore-content {
   width: 45%;
   padding: 50px;
@@ -195,70 +226,87 @@ p {
   justify-content: center;
   font-family: sans-serif;
 }
+
 .explore-content h1 {
   font-size: 7vmin;
-  color:#d12e2e;
+  color: #d12e2e;
   font-family: 'Carter One', cursive;
 }
+
 .explore-content .line {
   margin-bottom: 30px;
 }
+
 .explore-content p {
   color: rgb(11, 8, 8);
   font-size: x-large;
 }
+
 .explore-content .ctn {
   margin-top: 40px;
 }
+
 .explore-content {
-  margin:250px 20px auto 850px;
+  margin: 250px 20px auto 850px;
 }
+
 .content-col {
   width: 40%;
 }
+
 .image-col {
   width: 60%;
 }
+
 .blood .row .col {
   width: 50%;
 }
+
 .blood .image-gallery {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   align-items: center;
 }
+
 .image-gallery img {
   max-width: 250px;
   margin: 10px;
 }
+
 .content-col h1 {
   font-size: 7vmin;
   color: #484872;
   font-family: 'Carter One', cursive;
 }
+
 .content-col .line {
   margin-left: -1px;
 }
+
 .content-col p {
   padding: 0;
   margin: 30px auto;
 }
+
 .content-col .ctn {
   margin-left: -100px;
 }
+
 /*footer*/
 
 footer {
   background-color: grey;
   height: 250px;
   text-align: center;
- 
+
 }
+
 footer a {
   text-decoration: none;
   color: white;
 }
+
 .footericons,
 .footernav,
 .contact,
@@ -267,28 +315,35 @@ footer a {
   padding: 30px auto;
   justify-content: center;
 }
-.footericons{
+
+.footericons {
   margin-bottom: 30px;
 }
+
 .footernav a {
   margin: 20px;
 }
+
 .footer2 {
   justify-content: space-between;
   padding: 20px;
   background-color: black;
   line-height: 30px;
 }
+
 .footericons img {
   width: 40px;
   margin: auto 20px;
 }
-.footer > img {
+
+.footer>img {
   margin-top: 20px;
   width: 80px;
 }
 
-/*blood availability*//*donor*//*bloodcamp*/
+/*blood availability*/
+/*donor*/
+/*bloodcamp*/
 
 .blood-form {
   text-align: center;
@@ -312,43 +367,49 @@ form {
   width: 100%;
   margin: 40px auto;
 }
+
 form select {
   width: 300px;
   height: 40px;
   padding: 3px 8px;
 }
+
 input[type="submit"] :hover {
   background: red;
 }
+
 .bloodh1 {
   text-align: center;
   color: #ea0542;
 }
+
 .blood {
   padding-bottom: 100px;
 }
-.blood-availability{
+
+.blood-availability {
   width: 100vw;
   height: 100vh;
-  background-image:linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url("../img/listimage.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/listimage.jpg");
   background-position: bottom;
   background-size: cover;
- 
+
   justify-content: flex-end;
   border: 1px solid black;
-  align-items:flex-start;
+  align-items: flex-start;
 }
-.donor-availability{
+
+.donor-availability {
 
   width: 100vw;
   height: 100vh;
-  background-image:linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url("../img/donorimage.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/donorimage.jpg");
   background-position: bottom;
   background-size: cover;
- 
+
   justify-content: flex-end;
   border: 1px solid black;
-  align-items:flex-start;
+  align-items: flex-start;
 }
 
 /* table*/
@@ -357,6 +418,7 @@ table {
   margin: 10px auto;
   transform: scale(.9.5);
 }
+
 th {
   padding: 10px;
   font-size: 20px;
@@ -364,30 +426,36 @@ th {
   letter-spacing: 1px;
   background-color: #29b6f6;
 }
+
 td {
   padding: 10px;
 }
+
 table,
 th,
 td {
   margin-top: 100px;
   height: 100px;
 }
-table tr td:nth-child(1){
+
+table tr td:nth-child(1) {
   background-color: #FF6863;
   text-align: center;
 }
-table tr td{
-  padding: 15px ;
+
+table tr td {
+  padding: 15px;
   box-sizing: border-box;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 14px;
   border: solid black;
   border-width: 0px 0px 1px 0px;
 }
+
 .h1 {
   text-align: center;
 }
+
 #donateh {
   text-align: center;
   padding-top: 180px;
