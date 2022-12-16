@@ -85,7 +85,7 @@ form .fields .input-field{
     border: 1px solid #aaa;
     padding: 0 15px;
     height: 42px;
-    margin: 8px 0; */
+    margin: 8px 0; 
  }
 .input-field input:is(:focus, :valid){
     box-shadow: 0 3px 6px rgba(0,0,0,0.13);
