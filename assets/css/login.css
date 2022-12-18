@@ -1,33 +1,131 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins");
-
-*
-{
-    margin: o;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
-}
-section{
-    position:relative;
-    width:100%;
-    height:100vh;
-    display: flex;
-
-}
-section .imagebox{
-position: relative;
-width: 50%;
-height: 100%;
-
-}
-section .imagebox img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height:100%;
-    object-fit: cover;
+*{
+    background-color: #f3f1f1f8;
    
+}
+
+section{
+   background-color: white;
+    text-align: center;
+    height:400px;
+    width: 320px;
+    margin: 100px auto 10px auto;
+   border-radius: 5px;
+} 
+
+ form{
+    background-color: white;
+    margin: 10px auto;
+    width: 100%;
+    height:170px;
+}
+.sec1{
+    background-color: white;
+    height:400px;
+    width: 320px; 
+    border-radius: 5px;
+}
+.sec1 img{
+    margin-top: 28px ;
+    margin-bottom:28px;
+    height: 100px;
+    width:100px;
+    
+}
+input{
+    width:240px;
+    height:30px;
+    margin-bottom:20px;
+    border: 0px solid grey;
+    font-size: 12px;
+    color:grey;
+    border-radius: 2px;
+}
+button {
+    color: white; 
+    width:250px;
+    padding: 2px 100px 2px 100px;
+    background-color: rgb(37, 150, 190);
+    height:30px;
+    border:.5px solid grey;
+    
+}
+#or{
+    background-color:grey ;
+    margin: 20px;
+    height:0.5px;
+    display: block;
+    z-index: 2;
+}
+.check{
+    position:relative;
+    bottom: 10px;
+    z-index: 5;
+    padding: 10px;
+    background-color: white;
+    color:grey;
+    font-size: 15px;
+}
+h3{
+    display: inline-block;
+}
+.text{ 
+    background-color: white;
+}
+#facebook{
+    background-color: white;
+    color:rgba(56,81,133,255);
+    font-weight: 550;
+    font-family:sans-serif ;
+    letter-spacing: .4px;
+}
+#forgot{
+    background-color: white;
+    font-size: 14px ;
+    color:#345270;
+} 
+.sec2{
+   background-color: white;
+   width: 320px;
+   margin:0px auto;
+   text-align: center;
+   height: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.sec2 img{
+    
+     height:20px;
+     width:40px;
+     margin-top: 60px;
+     padding-left: 10px;
+ 
+}
+#signup{
+    background-color: white;
+    color: #1995f6;
+}
+#sign{
+    background-color: white;
+}
+.sec3{
+    background-color: #f3f1f1f8;
+   width:320px;
+   margin:10px auto;
+   text-align: center;
+   height: 150px;
 
 }
+.app{
+    background-color: #f3f1f1f8;
+    margin: 0px;
+    display:flex;
+    justify-content: center;
+}
+.app img {
+
+    width:50px;
+    margin:10px;
+}
+
 
