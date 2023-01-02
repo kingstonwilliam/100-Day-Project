@@ -1,0 +1,22 @@
+{
+  "name": "donor",
+  "version": "1.0.0",
+  "description": "100-Day Project :\"Donor - Blood donation site\"",
+  "main": "main.js",
+  "scripts": {
+    "dev": "http-server ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingstonwilliam/100-Day-Project.git"
+  },
+  "author": "kingstonwilliam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingstonwilliam/100-Day-Project/issues"
+  },
+  "homepage": "https://github.com/kingstonwilliam/100-Day-Project#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

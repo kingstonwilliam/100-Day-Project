@@ -1,4 +1,4 @@
-*{
+body{
     background-color: #f3f1f1f8;
    
 }
@@ -39,6 +39,9 @@ input{
     font-size: 12px;
     color:grey;
     border-radius: 2px;
+    background-color: rgb(227, 227, 227);
+    padding-left: 20px;
+    box-sizing: border-box;
 }
 button {
     color: white; 
